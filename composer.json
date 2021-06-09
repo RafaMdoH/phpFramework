@@ -3,8 +3,11 @@
     "description": "basic project",
     "autoload": {
         "psr-4": {
-            "Rafa\\Prueba\\": "src/"
-        }
+            "App\\": "src/"
+        },
+        "file":[
+            "app/helpers.php"
+        ]
     },
     "authors": [
         {
