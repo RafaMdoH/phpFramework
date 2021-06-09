@@ -1,0 +1,16 @@
+{
+    "name": "rafa/prueba",
+    "description": "basic project",
+    "autoload": {
+        "psr-4": {
+            "Rafa\\Prueba\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rafael Montes de oca",
+            "email": "rafaelmdoh@gmail.com"
+        }
+    ],
+    "require": {}
+}
