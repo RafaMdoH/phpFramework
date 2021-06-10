@@ -10,17 +10,17 @@ class Response
     public function __construct($view)
     {
         // home, contactos
-        $this->view = $view
+        $this->view = $view;
     }
 
-    public getView()
+    public function getView()
     {
         return $this->view;
     }
 
-    public send()
+    public function send()
     {
-        $view = $thi->getView();
+        $view = $this->getView();
 
         // la funcion file_get_contents nos permite obtener el contenido de un archivo
         $content = file_get_contents(__DIR__."/../../views/$view.php");
